@@ -3,7 +3,7 @@
 ## Title
 Fully Open Assess PhD Thesis 
 
-## Abstract:
+## Abstract
 Pushing the frontiers of knowledge is indeed a great challenge 
 but no less important than making such knowledge 
 open accessible and reproducible. That said, in this talk 
@@ -15,13 +15,13 @@ Furthermore, I will share experiences that helped me
 to put together my thesis such as the use of 
 GNU/Linux Ubuntu, 
 open-source programming languages, version control tools
-and a bit of continuous integration and development.  
+and a bit of continuous integration and development. 
 Finally, I will talk about open access scientists 
 open-source enthusiast who have been inspiring me 
 through this journey of trying to become a 
 better scientist.
 
-## Bio:
+## Bio
 Miguel Xochicale received his BSc in Electronic Engineering at Puebla
 Institute Technology (Mexico) in 2004. After completed his MSc in 
 Signal Processing at National Institute of Astrophysics, Optics and 
@@ -49,10 +49,9 @@ Tue 25th Feb at 1 PM
 Maisey Seminar Room    
 St Thomas’ Hospital
 
-
 ## Contact 
 If you have specific questions about the content of this repository, you can contact 
 [Miguel Xochicale](mailto:perez.xochicale@gmail.com?subject="[slides-reproducible-thesis]"). 
 If your question might be relevant to other people, please instead 
-[open an issue](https://github.com/mxochicale/riots-20200225/issues).
+[open an issue](https://github.com/mxochicale/riots-sth-20200225/issues).
 
