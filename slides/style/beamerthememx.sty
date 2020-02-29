@@ -19,7 +19,7 @@
 \usepackage{eso-pic}
 \usepackage{tikz}
 \usepackage{amsmath}
-
+\usepackage{fontawesome} % for \faTwitter ... \faGithub ...
 \usepackage{pgfkeys}
 
 \newif\if@doSans
@@ -231,7 +231,8 @@
     \ifx\insertauthor\@empty%
     \else%
         {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par
-	% \href{https://twitter.com/_mxochicale}{\faTwitter @\_mxochicale}
+	\href{https://twitter.com/_mxochicale}{\faTwitter @\_mxochicale}
+	\href{https://github.com/mxochicale}{\faGithub @mxochicale} 
 	\par}%
     \fi%
 
