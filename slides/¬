@@ -1,0 +1,150 @@
+%\documentclass[compress]{beamer}
+\documentclass[smaller, aspectratio=169]{beamer}
+
+
+%\usepackage{beamerthemesplit}
+%\setbeamersize{text margin left=0.1em}  % <- like this
+%\setbeamersize{text margin right=0.1em} % <- like this
+%\usepackage[orientation=landscape,size=custom,width=16,height=9,scale=0.5,debug]{beamerposter} 
+%\usepackage[orientation=landscape,size=custom,width=16,height=9]{beamerposter} 
+
+%--------------------------------------------------------------------------
+% Common packages
+%--------------------------------------------------------------------------
+\usepackage[english]{babel}
+\usepackage{pgfpages} % required for notes on second screen
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+
+\usepackage{tabularx,ragged2e}
+\usepackage{booktabs}
+\usepackage{marvosym}
+
+
+
+%font
+%\usepackage{fontawesome}
+%\usepackage[tt=false, type1=true]{libertine}
+%\usepackage[T1]{fontenc}
+%\usefonttheme[onlymath]{serif}
+
+\usepackage{unicode-math}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes,shadows}
+\usetikzlibrary{fadings}
+
+\setbeamertemplate{caption}[numbered]
+
+
+%--------------------------------------------------------------------------
+% Load theme
+%--------------------------------------------------------------------------
+\usetheme{mx}
+\graphicspath{{figs/}}
+
+
+%--------------------------------------------------------------------------
+% General presentation settings
+%--------------------------------------------------------------------------
+\title{
+Fully Open Access PhD Thesis  
+	} 
+\subtitle{RIOTS Club @ St Thomas}
+\date{25th February 2020 for 13h00m \\
+	at Maisey Seminar Room}
+
+\author{
+	{\bf Miguel Xochicale, PhD} 
+	} 
+\institute{
+	School of Biomedical Engineering and Imaging Sciences \\ 
+	King's College London
+	}
+
+
+
+%--------------------------------------------------------------------------
+% Notes settings
+%--------------------------------------------------------------------------
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{hide notes}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/riots-sth-20200225}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+%\begin{frame}{Overview}
+%\tableofcontents
+%\end{frame}
+
+
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+%\paper{}
+\begin{frame}{Outline}
+%\badge{badge/oa}
+
+\begin{enumerate}
+\item My journey into Open-Access (OA) science
+\item Who to follow? 
+\item What tools I use? 
+\item How to do an OA thesis?
+\item Takeaways 
+\end{enumerate}
+
+\end{frame}
+}
+
+
+%--------------------------------------------------------------------------
+% Content
+%--------------------------------------------------------------------------
+
+\input{tex-files/introduction}
+\input{tex-files/people}
+\input{tex-files/tools}
+\input{tex-files/thesis}
+\input{tex-files/takeaways}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\closingtitle
+
+%\subsection{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{References}
+    \begin{thebibliography}{10}
+
+\beamertemplatearticlebibitems
+
+	\bibitem{xochicale2019}
+	Xochicale Miguel
+	\newblock \doublequoted{
+	Nonlinear Analysis to Quantify Movement 
+	Variability in Human-Humanoid Interaction
+	} 
+      	\newblock Open Access Ph.D. Thesis (2019) 
+      	\newblock \url{https://github.com/mxochicale-phd/thesis}
+
+
+    \end{thebibliography}
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/riots-sth-20200225}
+
+\end{document}
